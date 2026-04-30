@@ -245,7 +245,7 @@ h1.hero-title em {
   background: linear-gradient(160deg, #2D6A4F 0%, #1B4332 60%, #0D2B1E 100%);
   transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
 }
-.photo-frame:hover .photo-svg { transform: scale(1.02); }
+.photo-frame:hover img { transform: scale(1.02); }
 .photo-svg svg { width: 100%; height: 100%; display: block; }
 
 .photo-caption {
@@ -756,38 +756,12 @@ footer {
     <div class="photo-frame">
       <div class="cred-float top-left"><span class="dot"></span> Johns Hopkins</div>
       <div class="cred-float bottom-right"><span class="dot"></span> ICH-GCP Certified</div>
-      <div class="photo-svg" id="avatar">
-        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" aria-label="Saravanan Balasubramaniyan">
-          <defs>
-            <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
-              <stop offset="0%" stop-color="#2D6A4F" stop-opacity="0.95"/>
-              <stop offset="100%" stop-color="#0D2B1E" stop-opacity="1"/>
-            </radialGradient>
-            <linearGradient id="rxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#D4A96A"/>
-              <stop offset="100%" stop-color="#B5935A"/>
-            </linearGradient>
-            <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-              <circle cx="2" cy="2" r="1" fill="rgba(255,255,255,0.06)"/>
-            </pattern>
-          </defs>
-          <rect width="400" height="500" fill="url(#bgGrad)"/>
-          <rect width="400" height="500" fill="url(#dots)"/>
-          <!-- Rx Caduceus inspired emblem -->
-          <g transform="translate(200,210)" opacity="0.95">
-            <circle r="78" fill="none" stroke="url(#rxGrad)" stroke-width="2.5"/>
-            <circle r="92" fill="none" stroke="rgba(212,169,106,0.3)" stroke-width="1"/>
-            <text x="0" y="22" text-anchor="middle" font-family="Georgia, serif" font-size="84" font-weight="700" fill="url(#rxGrad)" font-style="italic">Rx</text>
-          </g>
-          <!-- Initials below emblem -->
-          <text x="200" y="370" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="58" font-weight="900" fill="#F7F5F0" letter-spacing="6">SB</text>
-          <!-- Tagline -->
-          <text x="200" y="410" text-anchor="middle" font-family="Outfit, sans-serif" font-size="13" font-weight="500" fill="rgba(247,245,240,0.65)" letter-spacing="3">PHARM.D &middot; CLINICAL DATA</text>
-          <!-- Subtle line -->
-          <line x1="160" y1="430" x2="240" y2="430" stroke="rgba(212,169,106,0.5)" stroke-width="1"/>
-          <text x="200" y="455" text-anchor="middle" font-family="Outfit, sans-serif" font-size="11" font-weight="400" fill="rgba(247,245,240,0.45)" letter-spacing="2">EST. 2026</text>
-        </svg>
-      </div>
+      <img
+        src="sara.png"
+        alt="Saravanan Balasubramaniyan"
+        id="avatar"
+        style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:4px;display:block;position:relative;z-index:1;box-shadow:0 24px 64px rgba(26,22,18,0.18);transition:transform 0.4s cubic-bezier(0.4,0,0.2,1);"
+      />
       <div class="photo-caption">PharmD &middot; 2026</div>
     </div>
   </div>
