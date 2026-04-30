@@ -3,11 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
 <title>Saravanan Balasubramaniyan | PharmD · Clinical Data & Pharmacovigilance</title>
 <meta name="description" content="PharmD graduate specializing in Clinical Data Management, Pharmacovigilance, and Clinical Research. Johns Hopkins & Harvard certified. Open to opportunities.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+=======
+<title>Saravanan Balasubramaniyan | PharmD · Clinical Research</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 <style>
 :root {
   --bg: #F7F5F0;
@@ -36,8 +41,11 @@ body {
   font-family: var(--sans);
   line-height: 1.7;
   overflow-x: hidden;
+<<<<<<< HEAD
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 }
 
 /* ── Noise texture overlay ── */
@@ -49,6 +57,7 @@ body::before {
   opacity: 0.4;
 }
 
+<<<<<<< HEAD
 /* ── Page progress bar ── */
 .progress-bar {
   position: fixed; top: 0; left: 0; height: 2px; width: 0%;
@@ -64,12 +73,19 @@ body::before {
 
 /* Selection */
 ::selection { background: var(--accent); color: #fff; }
+=======
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--accent3); border-radius: 2px; }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 
 /* ── Nav ── */
 nav {
   position: fixed; top: 0; width: 100%; z-index: 100;
   padding: 1.1rem 5%;
   display: flex; align-items: center; justify-content: space-between;
+<<<<<<< HEAD
   background: rgba(247,245,240,0.85);
   backdrop-filter: blur(20px) saturate(1.4);
   -webkit-backdrop-filter: blur(20px) saturate(1.4);
@@ -90,16 +106,40 @@ nav.scrolled {
 .nav-links { display: flex; gap: 2rem; list-style: none; }
 .nav-links a {
   color: var(--muted); text-decoration: none; font-size: 0.82rem;
+=======
+  background: rgba(247,245,240,0.88);
+  backdrop-filter: blur(20px) saturate(1.4);
+  border-bottom: 1px solid var(--border);
+  transition: box-shadow 0.4s;
+}
+nav.scrolled { box-shadow: 0 2px 32px rgba(26,22,18,0.08); }
+.logo {
+  font-family: var(--serif); font-weight: 800; font-size: 1.15rem;
+  color: var(--accent); letter-spacing: -0.5px;
+}
+.nav-links { display: flex; gap: 2.2rem; list-style: none; }
+.nav-links a {
+  color: var(--muted); text-decoration: none; font-size: 0.85rem;
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase;
   transition: color 0.2s; position: relative;
 }
 .nav-links a::after {
+<<<<<<< HEAD
   content: ''; position: absolute; bottom: -4px; left: 0;
   width: 0; height: 1px; background: var(--accent);
   transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
 }
 .nav-links a:hover, .nav-links a.active { color: var(--accent); }
 .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+=======
+  content: ''; position: absolute; bottom: -2px; left: 0;
+  width: 0; height: 1px; background: var(--accent);
+  transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.nav-links a:hover { color: var(--accent); }
+.nav-links a:hover::after { width: 100%; }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 
 /* Hamburger */
 .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
@@ -123,12 +163,20 @@ section { position: relative; z-index: 1; padding: 6rem 5%; max-width: 1160px; m
 #hero {
   min-height: 100vh;
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: 1.1fr 0.9fr;
+=======
+  grid-template-columns: 1fr 1fr;
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   gap: 4rem;
   align-items: center;
   padding-top: 9rem;
   padding-bottom: 5rem;
 }
+<<<<<<< HEAD
+=======
+.hero-left { }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 .hero-availability {
   display: inline-flex; align-items: center; gap: 0.5rem;
   font-size: 0.72rem; font-weight: 600; letter-spacing: 0.18em;
@@ -140,6 +188,7 @@ section { position: relative; z-index: 1; padding: 6rem 5%; max-width: 1160px; m
   content: ''; width: 6px; height: 6px; border-radius: 50%;
   background: var(--accent3); animation: blink 2s ease infinite;
   flex-shrink: 0;
+<<<<<<< HEAD
   box-shadow: 0 0 0 0 rgba(64,145,108,0.7);
   animation: pulse-dot 2s ease infinite;
 }
@@ -147,6 +196,8 @@ section { position: relative; z-index: 1; padding: 6rem 5%; max-width: 1160px; m
   0% { box-shadow: 0 0 0 0 rgba(64,145,108,0.7); }
   70% { box-shadow: 0 0 0 8px rgba(64,145,108,0); }
   100% { box-shadow: 0 0 0 0 rgba(64,145,108,0); }
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.2} }
 
@@ -176,6 +227,7 @@ h1.hero-title em {
 }
 .btn-primary {
   display: inline-flex; align-items: center; gap: 0.5rem;
+<<<<<<< HEAD
   padding: 0.9rem 2rem; border-radius: 4px; font-size: 0.9rem;
   font-weight: 600; text-decoration: none; background: var(--accent);
   color: #fff; letter-spacing: 0.03em; font-family: var(--sans);
@@ -199,6 +251,24 @@ h1.hero-title em {
   background: transparent;
 }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent); background: rgba(27,67,50,0.04); transform: translateY(-2px); }
+=======
+  padding: 0.85rem 2rem; border-radius: 4px; font-size: 0.9rem;
+  font-weight: 600; text-decoration: none; background: var(--accent);
+  color: #fff; letter-spacing: 0.03em; font-family: var(--sans);
+  transition: background 0.25s, transform 0.2s, box-shadow 0.25s;
+  box-shadow: 0 4px 20px rgba(27,67,50,0.25);
+}
+.btn-primary:hover { background: var(--accent2); transform: translateY(-1px); box-shadow: 0 6px 28px rgba(27,67,50,0.3); }
+.btn-ghost {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.85rem 1.6rem; border-radius: 4px; font-size: 0.9rem;
+  font-weight: 500; text-decoration: none; color: var(--ink2);
+  border: 1px solid var(--border); font-family: var(--sans);
+  transition: border-color 0.25s, color 0.25s, background 0.25s;
+  background: transparent;
+}
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); background: rgba(27,67,50,0.04); }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 
 /* Hero stats row */
 .hero-stats {
@@ -206,13 +276,21 @@ h1.hero-title em {
   padding-top: 2rem; border-top: 1px solid var(--border);
   opacity: 0; animation: fadeUp 0.7s 0.65s ease forwards;
 }
+<<<<<<< HEAD
 .stat { text-align: left; transition: transform 0.3s ease; cursor: default; }
 .stat:hover { transform: translateY(-3px); }
+=======
+.stat { text-align: left; }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 .stat-num {
   font-family: var(--serif); font-size: 2rem; font-weight: 800;
   line-height: 1; color: var(--accent); letter-spacing: -1px;
 }
+<<<<<<< HEAD
 .stat-lbl { font-size: 0.72rem; color: var(--muted); font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; margin-top: 0.3rem; }
+=======
+.stat-lbl { font-size: 0.75rem; color: var(--muted); font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; margin-top: 0.2rem; }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 
 /* Hero photo side */
 .hero-right {
@@ -223,13 +301,18 @@ h1.hero-title em {
 @keyframes fadeRight { from{opacity:0;transform:translateX(30px)} to{opacity:1;transform:translateX(0)} }
 .photo-frame {
   position: relative;
+<<<<<<< HEAD
   width: min(360px, 90%);
+=======
+  width: min(380px, 90%);
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 }
 .photo-frame::before {
   content: '';
   position: absolute; inset: -12px; border-radius: 6px;
   border: 1px solid var(--gold);
   z-index: 0; transform: rotate(2deg);
+<<<<<<< HEAD
   transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
 }
 .photo-frame:hover::before { transform: rotate(0deg); }
@@ -248,11 +331,26 @@ h1.hero-title em {
 .photo-frame:hover .photo-svg { transform: scale(1.02); }
 .photo-svg svg { width: 100%; height: 100%; display: block; }
 
+=======
+  transition: transform 0.4s;
+}
+.photo-frame:hover::before { transform: rotate(0deg); }
+.photo-frame img {
+  width: 100%; aspect-ratio: 4/5; object-fit: cover;
+  object-position: center top;
+  border-radius: 4px;
+  display: block;
+  position: relative; z-index: 1;
+  filter: grayscale(8%) contrast(1.04);
+  box-shadow: 0 24px 64px rgba(26,22,18,0.18);
+}
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 .photo-caption {
   position: absolute; bottom: -1.5rem; right: -1rem; z-index: 2;
   background: var(--accent); color: #fff;
   font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
   padding: 0.5rem 1rem; border-radius: 2px;
+<<<<<<< HEAD
   box-shadow: 0 8px 24px rgba(27,67,50,0.25);
 }
 
@@ -272,6 +370,8 @@ h1.hero-title em {
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 }
 
 /* ── Section header ── */
@@ -330,6 +430,7 @@ h1.hero-title em {
 .tl-card {
   background: var(--surface); border: 1px solid var(--border);
   border-radius: 8px; padding: 2rem;
+<<<<<<< HEAD
   transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
   position: relative; overflow: hidden;
 }
@@ -345,6 +446,11 @@ h1.hero-title em {
   transform: translateY(-3px);
 }
 .tl-card:hover::before { transform: scaleY(1); }
+=======
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+.tl-card:hover { box-shadow: 0 8px 40px rgba(26,22,18,0.08); border-color: rgba(27,67,50,0.25); }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 .tl-header { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.25rem; }
 .tl-role { font-family: var(--serif); font-weight: 700; font-size: 1.1rem; color: var(--ink); }
 .tl-badge {
@@ -361,6 +467,7 @@ h1.hero-title em {
 }
 .tl-list li::before { content: '–'; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
 
+<<<<<<< HEAD
 /* ── Projects ── */
 #projects { border-top: 1px solid var(--border); }
 .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.4rem; }
@@ -408,6 +515,8 @@ h1.hero-title em {
   border-radius: 12px; letter-spacing: 0.03em;
 }
 
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 /* ── Skills ── */
 #skills { border-top: 1px solid var(--border); }
 .tabs { display: flex; gap: 0; flex-wrap: wrap; margin-bottom: 2.5rem; border-bottom: 1px solid var(--border); }
@@ -421,13 +530,22 @@ h1.hero-title em {
 .tab-btn:hover { color: var(--ink2); }
 .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
 .tab-content { display: none; }
+<<<<<<< HEAD
 .tab-content.active { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 0.9rem; animation: fadeIn 0.4s ease; }
 @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+=======
+.tab-content.active { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 0.9rem; animation: fadeIn 0.35s ease; }
+@keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 .skill-tag {
   background: var(--surface); border: 1px solid var(--border);
   border-radius: 6px; padding: 1.1rem 1.2rem;
   font-size: 0.85rem; font-weight: 500; color: var(--ink2);
+<<<<<<< HEAD
   text-align: center; transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
+=======
+  text-align: center; transition: all 0.2s;
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   position: relative; overflow: hidden;
 }
 .skill-tag::after {
@@ -435,7 +553,11 @@ h1.hero-title em {
   background: linear-gradient(90deg, var(--accent), var(--accent3));
   transform: scaleX(0); transform-origin: left; transition: transform 0.3s;
 }
+<<<<<<< HEAD
 .skill-tag:hover { border-color: rgba(27,67,50,0.3); transform: translateY(-3px); box-shadow: 0 6px 24px rgba(27,67,50,0.1); color: var(--ink); }
+=======
+.skill-tag:hover { border-color: rgba(27,67,50,0.3); transform: translateY(-2px); box-shadow: 0 4px 20px rgba(27,67,50,0.08); color: var(--ink); }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 .skill-tag:hover::after { transform: scaleX(1); }
 .skill-tag .icon { font-size: 1.4rem; display: block; margin-bottom: 0.4rem; }
 
@@ -447,10 +569,17 @@ h1.hero-title em {
   display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;
   gap: 1.5rem;
   opacity: 0; transform: translateY(20px);
+<<<<<<< HEAD
   transition: all 0.6s ease;
 }
 .edu-card.visible { opacity: 1; transform: translateY(0); }
 .edu-card:hover { box-shadow: 0 10px 40px rgba(26,22,18,0.08); transform: translateY(-3px); }
+=======
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.edu-card.visible { opacity: 1; transform: translateY(0); }
+.edu-card:hover { box-shadow: 0 8px 40px rgba(26,22,18,0.08); }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 .edu-left .degree { font-family: var(--serif); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.25rem; }
 .edu-left .inst { color: var(--accent2); font-weight: 600; font-size: 0.92rem; margin-bottom: 0.75rem; }
 .edu-left .edu-meta { color: var(--muted); font-size: 0.8rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
@@ -458,12 +587,16 @@ h1.hero-title em {
   background: var(--accent); color: #fff; font-family: var(--serif);
   font-size: 1.5rem; font-weight: 800; padding: 0.8rem 1.5rem; border-radius: 6px;
   white-space: nowrap; text-align: center; line-height: 1.1;
+<<<<<<< HEAD
   box-shadow: 0 6px 24px rgba(27,67,50,0.2);
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 }
 .edu-badge small { display: block; font-family: var(--sans); font-size: 0.68rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.8; margin-top: 0.2rem; }
 
 /* ── Certifications ── */
 #certifications { border-top: 1px solid var(--border); }
+<<<<<<< HEAD
 .cert-filter {
   display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;
 }
@@ -573,10 +706,25 @@ h1.hero-title em {
   font-size: 0.7rem; font-weight: 600; color: var(--accent2);
   letter-spacing: 0.06em; text-transform: uppercase; margin-top: 0.2rem;
 }
+=======
+.certs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.1rem; }
+.cert-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 6px; padding: 1.5rem; 
+  transition: all 0.3s;
+  opacity: 0; transform: translateY(16px);
+}
+.cert-card.visible { opacity: 1; transform: translateY(0); }
+.cert-card:hover { border-color: rgba(181,147,90,0.4); box-shadow: 0 6px 24px rgba(181,147,90,0.1); transform: translateY(-3px); }
+.cert-icon { font-size: 1.6rem; margin-bottom: 0.7rem; }
+.cert-name { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 0.3rem; line-height: 1.4; }
+.cert-source { color: var(--muted); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 
 /* ── Contact ── */
 #contact { border-top: 1px solid var(--border); padding-bottom: 7rem; }
 .contact-inner {
+<<<<<<< HEAD
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
   border-radius: 16px; padding: 4rem;
   text-align: center; color: #fff;
@@ -618,6 +766,40 @@ h1.hero-title em {
 }
 .btn-outline-white:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.7); transform: translateY(-2px); }
 .contact-info { color: rgba(255,255,255,0.6); font-size: 0.82rem; display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; position: relative; z-index: 1; }
+=======
+  background: var(--accent); border-radius: 12px; padding: 4rem;
+  text-align: center; color: #fff;
+  opacity: 0; transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.contact-inner.visible { opacity: 1; transform: translateY(0); }
+.contact-inner .sec-eyebrow { color: rgba(255,255,255,0.6); justify-content: center; }
+.contact-inner .sec-eyebrow::after { background: rgba(255,255,255,0.3); }
+.contact-inner h2 {
+  font-family: var(--serif); font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800; letter-spacing: -1px; margin-bottom: 1rem; color: #fff;
+}
+.contact-inner p { color: rgba(255,255,255,0.75); max-width: 480px; margin: 0 auto 2.5rem; }
+.contact-links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
+.btn-white {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.85rem 2rem; border-radius: 4px; font-size: 0.9rem;
+  font-weight: 600; background: #fff; color: var(--accent);
+  border: none; cursor: pointer; font-family: var(--sans);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+}
+.btn-white:hover { transform: translateY(-1px); box-shadow: 0 6px 24px rgba(0,0,0,0.2); }
+.btn-outline-white {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.85rem 1.6rem; border-radius: 4px; font-size: 0.9rem;
+  font-weight: 500; background: transparent; color: #fff;
+  border: 1px solid rgba(255,255,255,0.4); font-family: var(--sans);
+  transition: background 0.2s, border-color 0.2s; text-decoration: none;
+}
+.btn-outline-white:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.7); }
+.contact-info { color: rgba(255,255,255,0.55); font-size: 0.82rem; display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 .copy-tooltip {
   display: inline-flex; align-items: center; gap: 0.5rem;
   position: relative;
@@ -625,7 +807,11 @@ h1.hero-title em {
 .copy-tooltip .tip {
   position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%);
   background: var(--gold); color: #fff; font-size: 0.72rem; font-weight: 700;
+<<<<<<< HEAD
   padding: 4px 10px; border-radius: 3px; white-space: nowrap;
+=======
+  padding: 3px 10px; border-radius: 3px; white-space: nowrap;
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   opacity: 0; pointer-events: none; transition: opacity 0.3s; font-family: var(--sans);
 }
 .copy-tooltip.copied .tip { opacity: 1; }
@@ -637,6 +823,7 @@ footer {
   border-top: 1px solid var(--border);
 }
 
+<<<<<<< HEAD
 /* Back to top */
 .back-to-top {
   position: fixed; bottom: 30px; right: 30px;
@@ -652,11 +839,14 @@ footer {
 .back-to-top.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
 .back-to-top:hover { background: var(--accent2); transform: translateY(-3px); }
 
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 /* ── Animations ── */
 @keyframes fadeUp { from{opacity:0;transform:translateY(18px)} to{opacity:1;transform:translateY(0)} }
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.65s ease, transform 0.65s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
+<<<<<<< HEAD
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -671,10 +861,14 @@ footer {
   .nav-links { gap: 1.4rem; }
   .nav-links a { font-size: 0.78rem; }
 }
+=======
+/* ── Responsive ── */
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 @media (max-width: 860px) {
   #hero { grid-template-columns: 1fr; gap: 3rem; padding-top: 8rem; }
   .hero-right { order: -1; }
   .photo-frame { width: min(260px, 70%); margin: 0 auto; }
+<<<<<<< HEAD
   .cred-float { display: none; }
   #about { grid-template-columns: 1fr; gap: 3rem; }
   .nav-links { display: none; }
@@ -687,16 +881,29 @@ footer {
   .hero-stats { gap: 1.2rem; }
   .hero-stats .stat { flex: 1 1 calc(50% - 0.6rem); }
   .stat-num { font-size: 1.6rem; }
+=======
+  #about { grid-template-columns: 1fr; gap: 3rem; }
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+}
+@media (max-width: 600px) {
+  section { padding: 4rem 5%; }
+  .hero-stats { gap: 1.5rem; }
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   .edu-card { flex-direction: column; }
   .contact-inner { padding: 2.5rem 1.5rem; }
   .contact-info { flex-direction: column; gap: 0.6rem; }
   .tl-card { padding: 1.5rem; }
+<<<<<<< HEAD
   .back-to-top { bottom: 20px; right: 20px; width: 40px; height: 40px; }
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 }
 </style>
 </head>
 <body>
 
+<<<<<<< HEAD
 <!-- Page progress bar -->
 <div class="progress-bar" id="progressBar"></div>
 
@@ -710,6 +917,17 @@ footer {
     <li><a href="#skills">Skills</a></li>
     <li><a href="#certifications">Certifications</a></li>
     <li><a href="#publications">Publications</a></li>
+=======
+<!-- Nav -->
+<nav id="navbar">
+  <div class="logo">Saravanan B.</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
     <li><a href="#contact">Contact</a></li>
   </ul>
   <button class="hamburger" id="hamburger" aria-label="Menu">
@@ -719,25 +937,36 @@ footer {
 <div class="mobile-menu" id="mobileMenu">
   <a href="#about" onclick="closeMobileMenu()">About</a>
   <a href="#experience" onclick="closeMobileMenu()">Experience</a>
+<<<<<<< HEAD
   <a href="#projects" onclick="closeMobileMenu()">Projects</a>
   <a href="#skills" onclick="closeMobileMenu()">Skills</a>
   <a href="#education" onclick="closeMobileMenu()">Education</a>
   <a href="#certifications" onclick="closeMobileMenu()">Certifications</a>
   <a href="#publications" onclick="closeMobileMenu()">Publications</a>
   <a href="#achievements" onclick="closeMobileMenu()">Awards</a>
+=======
+  <a href="#skills" onclick="closeMobileMenu()">Skills</a>
+  <a href="#education" onclick="closeMobileMenu()">Education</a>
+  <a href="#certifications" onclick="closeMobileMenu()">Certifications</a>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   <a href="#contact" onclick="closeMobileMenu()">Contact</a>
 </div>
 
 <!-- ── Hero ── -->
 <section id="hero">
   <div class="hero-left">
+<<<<<<< HEAD
     <div class="hero-availability">Available for Opportunities · 2026</div>
+=======
+    <div class="hero-availability">Available for Opportunities</div>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
     <h1 class="hero-title">
       Saravanan
       <em>Balasubramaniyan</em>
     </h1>
     <div class="hero-rule"></div>
     <p class="hero-sub">
+<<<<<<< HEAD
       <strong>PharmD Graduate · Clinical Data Analyst · Pharmacovigilance Associate</strong> &mdash;
       bridging hands-on patient care with evidence-based data practice. Johns Hopkins & Harvard certified.
     </p>
@@ -750,10 +979,25 @@ footer {
       <div class="stat"><div class="stat-num" data-count="9">0+</div><div class="stat-lbl">Certifications</div></div>
       <div class="stat"><div class="stat-num" data-count="2">0</div><div class="stat-lbl">Publications</div></div>
       <div class="stat"><div class="stat-num">8.35</div><div class="stat-lbl">CGPA / 10</div></div>
+=======
+      PharmD Graduate · Clinical Research Coordinator · Clinical Data Analyst —
+      bridging patient care with evidence-based data practice.
+    </p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn-primary">Get In Touch</a>
+      <a href="#experience" class="btn-ghost">View Experience</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">40+</div><div class="stat-lbl">ADRs Reported</div></div>
+      <div class="stat"><div class="stat-num">4</div><div class="stat-lbl">Concurrent Studies</div></div>
+      <div class="stat"><div class="stat-num">8.35</div><div class="stat-lbl">CGPA / 10</div></div>
+      <div class="stat"><div class="stat-num">GCP</div><div class="stat-lbl">ICH Certified</div></div>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
     </div>
   </div>
   <div class="hero-right">
     <div class="photo-frame">
+<<<<<<< HEAD
       <div class="cred-float top-left"><span class="dot"></span> Johns Hopkins</div>
       <div class="cred-float bottom-right"><span class="dot"></span> ICH-GCP Certified</div>
       <div class="photo-svg" id="avatar">
@@ -789,6 +1033,10 @@ footer {
         </svg>
       </div>
       <div class="photo-caption">PharmD &middot; 2026</div>
+=======
+      <img src="sss.png" alt="Saravanan Balasubramaniyan" />
+      <div class="photo-caption">PharmD · 2026</div>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
     </div>
   </div>
 </section>
@@ -800,8 +1048,13 @@ footer {
     <h2 class="sec-title">Clinical Expertise<br>Meets Data Science</h2>
     <div class="about-text reveal">
       <p>I'm a <strong>clinically trained PharmD graduate</strong> from Tamil Nadu, India, with a rare blend of hands-on patient care experience and modern data analytics skills.</p>
+<<<<<<< HEAD
       <p>During my internships at <strong>Premier Research / Mysore Medical College</strong> and <strong>Karpagam Faculty of Medical Science</strong>, I gained firsthand exposure to SDV procedures, site-monitor communication, query resolution, and ADR causality assessment across <strong>4 concurrent studies</strong>.</p>
       <p>My passion lies at the intersection of <strong>pharmacovigilance, clinical data management,</strong> and regulatory compliance &mdash; using tools like REDCap, SQL, Python, and SPSS to drive smarter, evidence-based decisions in healthcare.</p>
+=======
+      <p>During my internship at <strong>Premier Research / Mysore Medical College</strong>, I gained firsthand exposure to SDV procedures, site-monitor communications, and query resolution workflows across 4 concurrent studies.</p>
+      <p>My passion lies at the intersection of <strong>pharmacovigilance, clinical data management</strong>, and regulatory compliance — using tools like REDCap, SQL, Python, and SPSS to drive smarter, evidence-based decisions in healthcare.</p>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
       <p>I bring <strong>ALCOA+ principles</strong>, ICH-GCP standards, and a clinician's mindset to every dataset I touch.</p>
     </div>
   </div>
@@ -812,7 +1065,11 @@ footer {
       <div class="sb-row"><div class="sb-labels">Clinical Data Management <span>85%</span></div><div class="sb-track"><div class="sb-fill" data-w="85"></div></div></div>
       <div class="sb-row"><div class="sb-labels">REDCap / EDC Systems <span>82%</span></div><div class="sb-track"><div class="sb-fill" data-w="82"></div></div></div>
       <div class="sb-row"><div class="sb-labels">SQL <span>75%</span></div><div class="sb-track"><div class="sb-fill" data-w="75"></div></div></div>
+<<<<<<< HEAD
       <div class="sb-row"><div class="sb-labels">Python (CS50P, Harvard) <span>78%</span></div><div class="sb-track"><div class="sb-fill" data-w="78"></div></div></div>
+=======
+      <div class="sb-row"><div class="sb-labels">Python (CS50P) <span>70%</span></div><div class="sb-track"><div class="sb-fill" data-w="70"></div></div></div>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
       <div class="sb-row"><div class="sb-labels">ICH-GCP / Regulatory <span>88%</span></div><div class="sb-track"><div class="sb-fill" data-w="88"></div></div></div>
     </div>
   </div>
@@ -837,9 +1094,15 @@ footer {
         </div>
         <ul class="tl-list">
           <li>Attended monitoring visits by the CRA; gained firsthand exposure to SDV procedures, site-monitor communication, and query resolution workflows.</li>
+<<<<<<< HEAD
           <li>Participated in a study completion / closeout visit &mdash; supporting end-of-study documentation and site closure activities.</li>
           <li>Observed and supported informed consent processes and subject visit procedures, building practical understanding of patient-facing trial operations.</li>
           <li>Gained cross-functional exposure across multiple study phases &mdash; initiation to closeout &mdash; within 4 concurrent studies.</li>
+=======
+          <li>Participated in a study completion / closeout visit — supporting end-of-study documentation and site closure activities.</li>
+          <li>Observed and supported informed consent processes and subject visit procedures, building practical understanding of patient-facing trial operations.</li>
+          <li>Gained cross-functional exposure across multiple study phases — initiation to closeout — within 4 concurrent studies.</li>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
           <li>Supported site audit preparation by reviewing safety narratives and verifying adherence to ICH E6 (R2) GCP guidelines.</li>
         </ul>
       </div>
@@ -852,15 +1115,24 @@ footer {
           <div>
             <div class="tl-role">Clinical Pharmacist Intern</div>
             <div class="tl-org">Karpagam Faculty of Medical Science and Research</div>
+<<<<<<< HEAD
             <div class="tl-loc">Coimbatore, Tamil Nadu</div>
+=======
+            <div class="tl-loc">Coimbatore</div>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
           </div>
           <span class="tl-badge" style="background:rgba(181,147,90,0.1);color:var(--gold)">12 Months</span>
         </div>
         <ul class="tl-list">
+<<<<<<< HEAD
           <li>Identified and reported <strong>40+ adverse drug reactions (ADRs)</strong> across 60&ndash;70 inpatients; performed causality assessment using WHO-UMC and Naranjo scales per ICH-GCP standards.</li>
           <li>Participated in ward rounds across major departments, gaining cross-functional exposure in both patient safety monitoring and clinical data documentation.</li>
           <li>Conducted prescription audits and pharmacotherapy reviews; documented findings in SOAP-note format for clinical hand-offs.</li>
           <li>Reviewed lab reports against patient charts to support data accuracy and evidence-based therapy decisions.</li>
+=======
+          <li>Identified and reported <strong>40+ adverse drug reactions (ADRs)</strong> across 60–70 inpatients; performed causality assessment using WHO-UMC and Naranjo scales per ICH-GCP standards.</li>
+          <li>Participated in ward rounds across major departments, gaining cross-functional exposure in both patient safety monitoring and clinical data documentation.</li>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
         </ul>
       </div>
     </div>
@@ -868,6 +1140,7 @@ footer {
   </div>
 </section>
 
+<<<<<<< HEAD
 <!-- ── Projects ── -->
 <section id="projects">
   <div class="sec-eyebrow">Selected Work</div>
@@ -914,11 +1187,21 @@ footer {
 <section id="skills">
   <div class="sec-eyebrow">Competencies</div>
   <h2 class="sec-title">Skills &amp; Tools</h2>
+=======
+<!-- ── Skills ── -->
+<section id="skills">
+  <div class="sec-eyebrow">Competencies</div>
+  <h2 class="sec-title">Skills & Tools</h2>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   <div class="tabs">
     <button class="tab-btn active" data-tab="pharma">Pharmacovigilance</button>
     <button class="tab-btn" data-tab="data">Clinical Data</button>
     <button class="tab-btn" data-tab="regulatory">Regulatory</button>
+<<<<<<< HEAD
     <button class="tab-btn" data-tab="tools">Tools &amp; Tech</button>
+=======
+    <button class="tab-btn" data-tab="tools">Tools & Tech</button>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   </div>
   <div class="tab-content active" id="tab-pharma">
     <div class="skill-tag"><span class="icon">🔬</span>ADR Reporting</div>
@@ -927,8 +1210,11 @@ footer {
     <div class="skill-tag"><span class="icon">🚨</span>SAE Reporting</div>
     <div class="skill-tag"><span class="icon">🧪</span>WHO-UMC Scale</div>
     <div class="skill-tag"><span class="icon">📊</span>Naranjo Scale</div>
+<<<<<<< HEAD
     <div class="skill-tag"><span class="icon">💊</span>Pharmacotherapy Review</div>
     <div class="skill-tag"><span class="icon">📝</span>SOAP Notes</div>
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   </div>
   <div class="tab-content" id="tab-data">
     <div class="skill-tag"><span class="icon">📄</span>CRF Design</div>
@@ -938,7 +1224,10 @@ footer {
     <div class="skill-tag"><span class="icon">🗂️</span>TMF Management</div>
     <div class="skill-tag"><span class="icon">✔️</span>ALCOA+ Principles</div>
     <div class="skill-tag"><span class="icon">🗃️</span>REDCap (EDC)</div>
+<<<<<<< HEAD
     <div class="skill-tag"><span class="icon">📈</span>Data Validation</div>
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   </div>
   <div class="tab-content" id="tab-regulatory">
     <div class="skill-tag"><span class="icon">📜</span>ICH-GCP E6(R2)</div>
@@ -947,8 +1236,11 @@ footer {
     <div class="skill-tag"><span class="icon">📑</span>Safety Narratives</div>
     <div class="skill-tag"><span class="icon">🤝</span>Monitor Communication</div>
     <div class="skill-tag"><span class="icon">📝</span>Informed Consent</div>
+<<<<<<< HEAD
     <div class="skill-tag"><span class="icon">⚖️</span>Ethical Conduct</div>
     <div class="skill-tag"><span class="icon">📂</span>Compliant Records</div>
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   </div>
   <div class="tab-content" id="tab-tools">
     <div class="skill-tag"><span class="icon">🐍</span>Python</div>
@@ -970,7 +1262,11 @@ footer {
       <div class="inst">Karpagam Academy of Higher Education, Coimbatore</div>
       <div class="edu-meta">
         <span>6-Year Professional Degree</span>
+<<<<<<< HEAD
         <span>Aug 2020 &ndash; Apr 2026</span>
+=======
+        <span>Aug 2020 – Apr 2026</span>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
         <span>Tamil Nadu, India</span>
       </div>
     </div>
@@ -981,6 +1277,7 @@ footer {
 <!-- ── Certifications ── -->
 <section id="certifications">
   <div class="sec-eyebrow">Credentials</div>
+<<<<<<< HEAD
   <h2 class="sec-title">Certifications &amp; Training</h2>
   <div class="cert-filter">
     <button class="active" data-filter="all">All</button>
@@ -1163,6 +1460,30 @@ footer {
       <div class="conf-date">April 2021</div>
     </div>
 
+=======
+  <h2 class="sec-title">Certifications & Training</h2>
+  <div class="certs-grid">
+    <div class="cert-card">
+      <div class="cert-icon">🏅</div>
+      <div class="cert-name">ICH-GCP E6 (R2) Good Clinical Practice</div>
+      <div class="cert-source">Certified — Clinical Research</div>
+    </div>
+    <div class="cert-card">
+      <div class="cert-icon">⚕️</div>
+      <div class="cert-name">Pharmacovigilance & Drug Safety Monitoring</div>
+      <div class="cert-source">Hospital Training</div>
+    </div>
+    <div class="cert-card">
+      <div class="cert-icon">📊</div>
+      <div class="cert-name">Clinical Data Management Essentials</div>
+      <div class="cert-source">Coursera</div>
+    </div>
+    <div class="cert-card">
+      <div class="cert-icon">🐍</div>
+      <div class="cert-name">SPSS & Python for Clinical Data Analysis</div>
+      <div class="cert-source">Coursera</div>
+    </div>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
   </div>
 </section>
 
@@ -1171,6 +1492,7 @@ footer {
   <div class="contact-inner reveal">
     <div class="sec-eyebrow">Let's Connect</div>
     <h2>Open to Opportunities</h2>
+<<<<<<< HEAD
     <p>Whether you have a Clinical Data, Pharmacovigilance, CRA, or CRO opening &mdash; I'd love to hear from you. Currently open to roles starting 2026.</p>
     <div class="contact-links">
       <button class="btn-white copy-tooltip" id="copyBtn" onclick="copyEmail()">
@@ -1184,11 +1506,26 @@ footer {
       <span>📍 Tamil Nadu, India</span>
       <span>🎓 PharmD Graduate 2026</span>
       <span>✓ Available Immediately</span>
+=======
+    <p>Whether you have a clinical research role, CRO opening, or data analytics project — I'd love to hear from you.</p>
+    <div class="contact-links">
+      <button class="btn-white copy-tooltip" id="copyBtn" onclick="copyEmail()">
+        Copy Email
+        <span class="tip">Copied!</span>
+      </button>
+      <a href="tel:+919894709073" class="btn-outline-white">+91 98947 09073</a>
+    </div>
+    <div class="contact-info">
+      <span>Tamil Nadu, India</span>
+      <span>cdm4sara@gmail.com</span>
+      <span>PharmD Graduate 2026</span>
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
     </div>
   </div>
 </section>
 
 <footer>
+<<<<<<< HEAD
   <p>Saravanan Balasubramaniyan &middot; PharmD &middot; Clinical Data Analyst &middot; &copy; 2026</p>
 </footer>
 
@@ -1210,6 +1547,15 @@ window.addEventListener('scroll', () => {
   const percent = (scrolled / docHeight) * 100;
   progressBar.style.width = percent + '%';
 }, { passive: true });
+=======
+  <p>Saravanan Balasubramaniyan · PharmD · Clinical Data Analyst · 2026</p>
+</footer>
+
+<script>
+// Nav scroll
+const nav = document.getElementById('navbar');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 
 // Hamburger
 const hamburger = document.getElementById('hamburger');
@@ -1220,6 +1566,7 @@ hamburger.addEventListener('click', () => {
 });
 function closeMobileMenu() { mobileMenu.classList.remove('open'); hamburger.classList.remove('open'); }
 
+<<<<<<< HEAD
 // Intersection Observer for reveal animations
 const io = new IntersectionObserver((entries) => {
   entries.forEach(e => {
@@ -1230,6 +1577,13 @@ const io = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
 document.querySelectorAll('.reveal, .tl-item, .edu-card, .cert-card, .project-card, .pub-card, .ach-card, .conf-card, .contact-inner').forEach(el => io.observe(el));
+=======
+// Intersection Observer
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal, .tl-item, .edu-card, .cert-card').forEach(el => io.observe(el));
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 
 // Skill bars
 const barObs = new IntersectionObserver((entries) => {
@@ -1243,6 +1597,7 @@ const barObs = new IntersectionObserver((entries) => {
 const sb = document.getElementById('skillBars');
 if (sb) barObs.observe(sb);
 
+<<<<<<< HEAD
 // Animated counters in hero stats
 const counters = document.querySelectorAll('.stat-num[data-count]');
 const counterObs = new IntersectionObserver((entries) => {
@@ -1267,6 +1622,8 @@ const counterObs = new IntersectionObserver((entries) => {
 }, { threshold: 0.5 });
 counters.forEach(c => counterObs.observe(c));
 
+=======
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 // Tabs
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -1277,6 +1634,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
   });
 });
 
+<<<<<<< HEAD
 // Cert filter
 document.querySelectorAll('.cert-filter button').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -1320,6 +1678,18 @@ const navObs = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.3, rootMargin: '-80px 0px -50% 0px' });
 sections.forEach(s => navObs.observe(s));
+=======
+// Cert card stagger
+document.querySelectorAll('.cert-card').forEach((c, i) => { c.style.transitionDelay = (i * 0.1) + 's'; });
+
+// Copy email
+function copyEmail() {
+  navigator.clipboard.writeText('cdm4sara@gmail.com');
+  const btn = document.getElementById('copyBtn');
+  btn.classList.add('copied');
+  setTimeout(() => btn.classList.remove('copied'), 2000);
+}
+>>>>>>> 4aa7e3906239934179dff7b934b94156ba015be4
 </script>
 </body>
 </html>
