@@ -530,6 +530,7 @@ h1.hero-title em {
   border-radius: 12px;
   width: 100%; max-width: 860px;
   max-height: 90vh;
+  height: 90vh;
   display: flex; flex-direction: column;
   overflow: hidden;
   box-shadow: 0 32px 80px rgba(26,22,18,0.35);
@@ -572,11 +573,38 @@ h1.hero-title em {
 .pdf-open-btn:hover { background: var(--accent2); }
 .pdf-modal-body {
   flex: 1; overflow: hidden; background: var(--bg2);
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  min-height: 400px;
+  display: flex; flex-direction: column;
+  min-height: 0;
 }
 .pdf-modal-body iframe {
-  width: 100%; height: 100%; min-height: 540px; border: none; display: block;
+  width: 100%; flex: 1; min-height: 0; height: 100%; border: none; display: block;
+}
+
+/* ── Mobile: full-screen PDF modal ── */
+@media (max-width: 600px) {
+  .pdf-modal-overlay {
+    padding: 0;
+    align-items: flex-end;
+  }
+  .pdf-modal {
+    border-radius: 16px 16px 0 0;
+    max-height: 95vh;
+    height: 95vh;
+    max-width: 100%;
+  }
+  .pdf-modal-header {
+    padding: 1rem 1.2rem;
+  }
+  .pdf-modal-title {
+    font-size: 0.88rem;
+    max-width: 60%;
+  }
+  .pdf-modal-meta { display: none; }
+  .pdf-open-btn span { display: none; }
+  .pdf-open-btn {
+    padding: 0.45rem 0.7rem;
+    font-size: 0.72rem;
+  }
 }
 .pdf-placeholder {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
